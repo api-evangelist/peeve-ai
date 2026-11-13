@@ -64,5 +64,161 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Peeve is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://peeve.ai
+Peeve provides an AI‑powered customer support agent platform for SaaS companies. It automates answering, showing, doing, and hand‑off tasks through a multi‑modal interface, offering analytics, intent detection, and connector integrations. The service emphasizes privacy, security, and a managed control plane (MCP) for enterprise workflows, with transparent pricing and extensive documentation.
+
+**Areas:** AI Customer Support · SaaS · In‑app Help · Backend Integration · Analytics
+
+## Peeve on APIs.io
+
+Everything profiled for Peeve is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/peeve-ai/](https://apis.io/providers/peeve-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Peeve Analytics API](https://apis.io/apis/peeve-ai/peeve-ai-analytics-api/) — Usage and satisfaction results.
+- [Peeve Ask API](https://apis.io/apis/peeve-ai/peeve-ai-ask-api/) — Ask the agent a question from your backend and get a grounded answer.
+- [Peeve Configuration API](https://apis.io/apis/peeve-ai/peeve-ai-configuration-api/) — Guardrails and the kill switch.
+- [Peeve Contacts API](https://apis.io/apis/peeve-ai/peeve-ai-contacts-api/) — Everyone Peeve knows about: **users** your product identified, and anonymous **visitors**. Filter with `?kind=`.
+- [Peeve Hand Offs API](https://apis.io/apis/peeve-ai/peeve-ai-hand-offs-api/) — Hand-offs to a human, and their status.
+- [Peeve Leads API](https://apis.io/apis/peeve-ai/peeve-ai-leads-api/) — Visitors the agent qualified. Read and re-status only — capture happens through Peeve's own channels.
+- [Peeve Meetings API](https://apis.io/apis/peeve-ai/peeve-ai-meetings-api/) — Meetings booked through the agent.
+- [Peeve Sessions API](https://apis.io/apis/peeve-ai/peeve-ai-sessions-api/) — Agent conversations and their transcripts.
+- [Peeve Users API](https://apis.io/apis/peeve-ai/peeve-ai-users-api/) — Push your identified users into Peeve from your backend.
+- [Peeve Webhooks API](https://apis.io/apis/peeve-ai/peeve-ai-webhooks-api/) — Register and manage the endpoints Peeve delivers events to. Equivalent to the Connectors UI — an endpoint created here is the same row, with the same…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Peeve Ai Webhooks](https://apis.io/asyncapis/peeve-ai/peeve-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Peeve Agentic Access](https://apis.io/agentic-access/peeve-ai/peeve-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ListEnvelope](https://apis.io/schemas/peeve-ai/peeve-ai-list-envelope/)
+- [SessionObject](https://apis.io/schemas/peeve-ai/peeve-ai-session-object/)
+- [UsageObject](https://apis.io/schemas/peeve-ai/peeve-ai-usage-object/)
+- [UserPush](https://apis.io/schemas/peeve-ai/peeve-ai-user-push/)
+- [VendorTokenObject](https://apis.io/schemas/peeve-ai/peeve-ai-vendor-token-object/)
+- [WebhookEndpointWithSecret](https://apis.io/schemas/peeve-ai/peeve-ai-webhook-endpoint-with-secret/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Peeve Ai Context](https://apis.io/jsonld/peeve-ai/peeve-ai-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Peeve Openapi Overlay](https://apis.io/overlays/peeve-ai/peeve-ai-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Peeve API Rules](https://apis.io/rules/peeve-ai/peeve-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Peeve Authentication](https://apis.io/security/peeve-ai/peeve-ai-authentication/)
+- [Peeve Domain Security](https://apis.io/security/peeve-ai/peeve-ai-domain-security/)
+- [Peeve Trust Center](https://apis.io/security/peeve-ai/peeve-ai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Peeve Plans Pricing](https://apis.io/plans/peeve-ai/peeve-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Peeve Rate Limits](https://apis.io/rate-limits/peeve-ai/peeve-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://peeve.ai)
+- [Documentation](https://docs.peeve.ai/api/overview)
+- [Getting started](https://docs.peeve.ai/get-started/quickstart)
+- [Pricing](https://peeve.ai/pricing)
+- [Support](https://peeve.ai/solutions/support)
+- [Changelog](https://peeve.ai/changelog/)
+- [Blog](https://peeve.ai/blog)
+- [Security](https://peeve.ai/product/security/)
+- [Compliance](https://peeve.ai/trust/)
+- [Terms of service](https://peeve.ai/legal/terms)
+- [Privacy policy](https://peeve.ai/legal/privacy)
+- [GitHub](https://github.com/peeveai)
+
+## API Evangelist rating
+
+**Kin Score 73.0** — exemplar · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 68.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 67.9 |
+| Developer ergonomics | 54.0 |
+| Access clarity | 88.9 |
+
+**Agent readiness 69.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/peeve-ai/](https://apis.io/providers/peeve-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Peeve: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/peeve-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
