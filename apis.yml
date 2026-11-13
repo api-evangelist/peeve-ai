@@ -1,0 +1,27 @@
+aid: peeve-ai
+name: Peeve
+description: 'Peeve is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/peeve-ai/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-13'
+modified: '2026-11-13'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://peeve.ai
+- type: Documentation
+  url: https://docs.peeve.ai/api/overview
+x-submission-probe: peeve.ai 200, invented 404, api.peeve.ai root JSON 404 (API host), docs.peeve.ai/openapi/v1.json
+  200 (OpenAPI 3.1, 122KB); not in backlog or apis.io
